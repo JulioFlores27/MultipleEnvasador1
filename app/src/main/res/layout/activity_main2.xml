@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main2Activity">
+    <Button
+        android:id="@+id/terminadodia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:text="@string/terminado"
+        android:layout_marginTop="150dp" tools:targetApi="lollipop" />
+    <Button
+        android:id="@+id/problemadia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:text="@string/problema"
+        android:layout_marginTop="50dp" tools:targetApi="lollipop" />
+</LinearLayout>

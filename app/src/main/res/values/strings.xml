@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Envasadores</string>
+    <string name="terminado">Terminado</string>
+    <string name="problema">Problema</string>
+</resources>
