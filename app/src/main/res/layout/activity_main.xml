@@ -9,7 +9,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal">
                 <ListView
@@ -35,6 +35,46 @@
                 <ListView
                     android:id="@+id/listan3"
                     android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </ListView>
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/background_dark"
+                    android:backgroundTint="@android:color/black" tools:targetApi="lollipop"/>
+                <ListView
+                    android:id="@+id/listan4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </ListView>
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/background_dark"
+                    android:backgroundTint="@android:color/black" tools:targetApi="lollipop"/>
+                <ListView
+                    android:id="@+id/listan5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </ListView>
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/background_dark"
+                    android:backgroundTint="@android:color/black" tools:targetApi="lollipop"/>
+                <ListView
+                    android:id="@+id/listan6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </ListView>
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/background_dark"
+                    android:backgroundTint="@android:color/black" tools:targetApi="lollipop"/>
+                <ListView
+                    android:id="@+id/listan7"
+                    android:layout_width="350dp"
                     android:layout_height="wrap_content">
                 </ListView>
             </LinearLayout>
